@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Game</title>
+    <link rel="stylesheet" href="cricket_game.css">
+    <script src="cricket_game.js"></script>
+</head>
+<body>
+    <h1>Bat Ball Stump Game</h1>
+   
+   
+   
+   
+   <button onclick=" 
+   ganerateComputerChoice();
+    let resultMsg;
+    if(computerChoice === 'Ball'){
+       
+        resultMsg = 'You Won...🎉🎉🎉🎉'
+    }else if(computerChoice === 'Bat'){
+        
+        resultMsg = `It's a tie😒😒😒😒`;
+    }else if (computerChoice == 'Stump'){
+       
+        resultMsg = 'You loss😢😢😢😢';
+    }
+
+    alert(` 'You have chosen Bat'. Computer Choice is ${computerChoice} and ${resultMsg}`);
+
+    ">Bat</button>
+    
+    
+
+   
+   <button onclick=" 
+   
+   ganerateComputerChoice();
+
+  let resultMsg
+   if(computerChoice === 'Ball'){
+      
+       resultMsg = `It's a tie😒😒😒😒`;
+   }else if(computerChoice === 'Bat'){
+       
+       resultMsg = 'You loss😢😢😢😢' ;
+   }else if (computerChoice == 'Stump'){
+      
+       resultMsg = 'You Won...🎉🎉🎉🎉';
+   }
+
+   alert(` 'You have chosen Ball'. Computer Choice is ${computerChoice} and ${resultMsg}`);
+
+   ">Ball</button>
+    
+    
+    
+    
+    <button onclick=" 
+   
+   ganerateComputerChoice();
+ 
+   let resultMsg
+    if(computerChoice === 'Ball'){
+       
+        resultMsg = 'You loss😢😢😢😢' ;
+    }else if(computerChoice === 'Bat'){
+        
+        resultMsg = 'You Won...🎉🎉🎉🎉'  ;
+    }else if (computerChoice == 'Stump'){
+       
+        resultMsg = `It's a tie😒😒😒😒`;
+    }
+ 
+    alert(` 'You have chosen Ball'. Computer Choice is ${computerChoice} and ${resultMsg}`);
+ 
+    ">Stump</button>
+
+</body>
+</html>
